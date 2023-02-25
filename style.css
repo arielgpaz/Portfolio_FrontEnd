@@ -67,11 +67,11 @@ p {
 }
 
 #inicio .hero-text {
-    text-align: left;
-    position: absolute;
-    bottom: 15%;
-    transform: translate(-5%, -55%);
     color: black;
+    margin-left: -5%;
+    margin-top: 15%;
+    white-space: nowrap;
+    overflow: hidden !important;
 }
 
 .bgimage {
