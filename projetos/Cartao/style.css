@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    background-color: rgb(32, 32, 32);
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,1)), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
+    background-size: 100% 100%, 10px 10px, 10px 10px, 10px 5px;
+    background-position: 0 0, 0 0, 5px 5px, 0 0;
+    font-family: "nunito", serif;
+}
+
+.frame {
+    position: absolute;
+    background-color: #e4b34d;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    box-shadow: 8px 16px 16px rgba(0, 0, 0, 0.6);
+}
+
+.frame, .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flip-me {
+    position: absolute;
+    top: 30%;
+    left: 77%;
+    font-size: 20px;
+    transform: rotate(270deg);
+    color: #daa520;
+}
+
+.front h1 {
+    font-family: Satisfy, cursive;
+    font-size: 128px;
+    margin: 80px;
+    color: #daa520;
+}
+
+.card:hover .flip {
+    transform: rotateX(180deg) translate3d(0, 0, 0);
+    box-shadow: 8px -10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.flip {
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    perspective: 1000px;
+}
+
+.front, .back {
+    -webkit-backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background: #201c29;
+}
+
+.card .back {
+    transform: rotateX(-180deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.back {
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.back h2 {
+    font-size: 36px;
+    margin: 30px;
+    color: #daa520;
+}
+
+.back h3 {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Satisfy, cursive;
+    font-weight: 300;
+    font-size: 32px;
+    margin: 32px;
+}
+
+.back h4 {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Satisfy, cursive;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+img {
+    width: 32px;
+}
+

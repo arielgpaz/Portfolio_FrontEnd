@@ -1,0 +1,188 @@
+/* Menu */
+
+    .logoSite {
+        width: 4rem;
+    }
+
+    .navbar {
+        position: -ms-device-fixed;
+        background-color: #78D4D5;
+        width: 100%;
+    }
+    
+    .navbar .nav-link {
+        border-style: solid;
+        border-color: #78D4D5;
+        border-radius: 5px;
+        align-self: center;
+        color: white;
+    }
+
+    .navbar .nav-inicio, .navbar .nav-projetos {
+        background-image: linear-gradient(#008F96, #50DFE6);
+    }
+
+    .navbar .nav-sobre, .navbar .nav-contatos {
+        background-image: linear-gradient(#FF6507, #FFB557);
+    }
+
+    .navbar .nav-link:hover {
+        color: black;
+    }
+
+/* Início */
+
+    #inicio {
+        background-color: #FFA577;
+        height: 100vh;
+    }
+
+    .hero_titulo {
+        font-size: 6rem;
+    }
+
+    .hero_desc {
+        font-size: 3rem;
+    }
+
+    .hero-text {
+        text-align: left;
+        position: absolute;
+        bottom: 15%;
+        transform: translate(-5%, -55%);
+        color: black;
+    }
+
+    .bgimage {
+        height: 50rem;
+        background: url('img/heroImage.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: center;
+    }
+
+/* Sobre */
+
+    #sobre {
+        background-color: #78D4D5;
+    }
+
+    .imagemSobre {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .sobre {
+        top: 150vh;
+    }
+
+    #sobre li {
+        list-style: none;
+    }
+
+/* Habilidades */
+
+    #habilidades {
+        background-color: #FFA577;
+        text-align: center;
+    }
+
+    .habilidades {
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+
+    .skillIcon {
+        width: 56px;
+        height: 56px;
+        margin: auto;
+    }
+
+/* Projetos */
+
+    #projetos {
+        background-color: #78D4D5;
+    }
+
+    #projetos a:hover {
+        color: black;
+    }
+
+    .card-img-top {
+        height: 25vh;
+    }
+
+    .card-body {
+        min-height: 40vh;
+    }
+
+    .botao {
+        background-image: linear-gradient(#008F96, #50DFE6);
+        position: absolute;
+        bottom: 2%;
+        transform: translate(-50%, 0);
+    }
+
+
+/* Contatos */
+
+    #contatos {
+        background-color: #FFA577;
+        text-align: center;
+    }
+
+    .servicesText {
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+    }
+
+    .servicesText a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .servicesText a:hover {
+        color: #008F96;
+    }
+
+    .contactIcon{
+        width: 56px;
+    }
+
+/* Rodapé */
+
+    #rodape {
+        background-color: #78D4D5;
+    }
+
+    .rodape-logo {
+        width: 20vh;
+    }
+
+    #rodape a {
+        color: black;
+        text-decoration: none;
+    }
+
+    #rodape a:hover {
+        color: #008F96;
+    }
+
+    #rodape li {
+        list-style: none;
+    }
+
+    .lastLine {
+        background-color: #00BDC0;
+    }
+
+/* Geral */
+
+    #inicio, #sobre, #habilidades, #projetos, #contatos, #rodape {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
