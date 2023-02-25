@@ -18,12 +18,14 @@
         color: white;
     }
 
-    .navbar .nav-inicio, .navbar .nav-projetos {
-        background-image: linear-gradient(#008F96, #50DFE6);
+    .navbar .nav-inicio, .navbar .nav-habilidades, .navbar .nav-contatos {
+        background-image: linear-gradient(#FF6507, #FFB557);
+        font-weight: bold;
     }
 
-    .navbar .nav-sobre, .navbar .nav-contatos {
-        background-image: linear-gradient(#FF6507, #FFB557);
+    .navbar .nav-sobre, .navbar .nav-projetos {
+        background-image: linear-gradient(#008F96, #50DFE6);
+        font-weight: bold;
     }
 
     .navbar .nav-link:hover {
