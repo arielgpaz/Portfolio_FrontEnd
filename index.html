@@ -15,32 +15,44 @@
 </head>
 
 <body>
- Menu
-    <nav class = "navbar navbar-expand-lg fixed-top">
+<!-- Menu -->
+    <nav class = "navbar navbar-expand-lg fixed-top shadow">
+        <div class="container">
             <a href = "#" class = "navbar-brand ml-auto">
                 <img class = "logoSite" src = "img/logo.png" alt = "Logo do site">
             </a>
             <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse"
                     data-bs-target = "#navbarSupportedContent" aria-expanded = "false"
-                    aria-label = "Toggle navigation"><span class = "navbar-toggler-icon"></span></button>
+                    aria-label = "Toggle navigation">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
             <div class = "collapse navbar-collapse" id = "navbarSupportedContent">
                 <ul class = "navbar-nav mx-auto">
-                    <li class = "nav-item active"><a class = "nav-link nav-inicio" href = "#inicio">Início</a></li>
-                    <li class = "nav-item"><a class = "nav-link nav-sobre" href = "#sobre">Sobre mim</a></li>
-                    <li
-                            class = "nav-item"><a class = "nav-link nav-habilidades" href = "#habilidades">Minhas
-                                                                                                           habilidades</a></li>
-                    <li class = "nav-item"><a class = "nav-link nav-projetos" href = "#projetos">Meus projetos</a></li>
-                    <li class = "nav-item"><a class = "nav-link nav-contatos" href = "#contatos">Contatos</a></li>
+                    <li class = "nav-item">
+                        <a class = "nav-link nav-inicio" href = "#inicio">Início</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link nav-sobre" href = "#sobre">Sobre mim</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link nav-habilidades" href = "#habilidades">Minhas habilidades</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link nav-projetos" href = "#projetos">Meus projetos</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link nav-contatos" href = "#contatos">Contatos</a>
+                    </li>
                 </ul>
             </div>
             <a href = "#" class = "navbar-brand">
                 <img class = "logoSite" src = "img/logo.png" alt = "Logo do site">
             </a>
+        </div>
     </nav>
 
 <!-- Início -->
-    <section  id = "inicio" class = "bgimage mt-3">
+    <section  id = "inicio" class = "bgimage shadow mt-3">
         <div class = "container">
             <div class = "row">
                 <div class = "col-lg-12 hero-text">
@@ -52,7 +64,7 @@
     </section>
 
 <!-- Sobre mim -->
-    <section id = "sobre" class = "mt-3">
+    <section id = "sobre" class = "shadow mt-3">
         <div class = "container">
             <h1 class = "text-center">Sobre mim</h1>
 
@@ -80,7 +92,7 @@
                             carreira. Através do programa fui contratado e iniciei minha carreira de desenvolvedor.
                             Após um tempo de experiência, pude ver a necessidade da minha equipe de ter mais pessoas
                             trabalhando como front-end, comecei fazendo as atividades mais simples e isso me motivou
-                            entrar em um curso de desenvolvimento front-end da Mais Pra Ti, onde o trabalho final foi
+                            entrar em um curso de desenvolvimento front-end da +PraTi, onde o trabalho final foi
                             desenvolver esse portfólio.</p>
                     </div>
                 </div>
@@ -89,42 +101,42 @@
     </section>
 
 <!-- Habilidades -->
-    <section id = "habilidades" class = "mt-3">
+    <section id = "habilidades" class = "shadow mt-3">
         <div class = "container">
             <h1>Minhas habilidades</h1>
             <div class = "row">
                 <div class = "col-lg-2 mt-4">
-                    <div class = "card habilidades">
+                    <div class = "card cardHabilidades">
                         <img class = "skillIcon" src = "img/icons/java.png" alt = "Ícone do Java">
                         <h5 class = "card-title mt-3">Java</h5>
                     </div>
                 </div>
                 <div class = "col-lg-2 mt-4">
-                    <div class = "card habilidades">
+                    <div class = "card cardHabilidades">
                         <img class = "skillIcon" src = "img/icons/spring.png" alt = "Ícone do Spring">
                         <h5 class = "card-title mt-3">Spring</h5>
                     </div>
                 </div>
                 <div class = "col-lg-2 mt-4">
-                    <div class = "card habilidades">
+                    <div class = "card cardHabilidades">
                         <img class = "skillIcon" src = "img/icons/azure.png" alt = "Ícone da Azure">
                         <h5 class = "card-title mt-3">Azure</h5>
                     </div>
                 </div>
                 <div class = "col-lg-2 mt-4">
-                    <div class = "card habilidades">
+                    <div class = "card cardHabilidades">
                         <img class = "skillIcon" src = "img/icons/git.png" alt = "Ícone do Git">
                         <h5 class = "card-title mt-3">Git</h5>
                     </div>
                 </div>
                 <div class = "col-lg-2 mt-4">
-                    <div class = "card habilidades">
+                    <div class = "card cardHabilidades">
                         <img class = "skillIcon" src = "img/icons/mongo.png" alt = "Ícone do Mongo">
                         <h5 class = "card-title mt-3">MongoDB</h5>
                     </div>
                 </div>
                 <div class = "col-lg-2 mt-4">
-                    <div class = "card habilidades">
+                    <div class = "card cardHabilidades">
                         <img class = "skillIcon" src = "img/icons/postgresql.png" alt = "Ícone do PostgreSQL">
                         <h5 class = "card-title mt-3">PostgreSQL</h5>
                     </div>
@@ -132,37 +144,37 @@
             </div>
             <div class = "row">
                 <div class = "col-lg-2 mt-4">
-                    <div class = "card habilidades">
+                    <div class = "card cardHabilidades">
                         <img class = "skillIcon" src = "img/icons/redis.png" alt = "Ícone do Redis">
                         <h5 class = "card-title mt-3">Redis</h5>
                     </div>
                 </div>
                 <div class = "col-lg-2 mt-4">
-                    <div class = "card habilidades">
+                    <div class = "card cardHabilidades">
                         <img class = "skillIcon" src = "img/icons/kafka.png" alt = "Ícone do Kafka">
                         <h5 class = "card-title mt-3">Kafka</h5>
                     </div>
                 </div>
                 <div class = "col-lg-2 mt-4">
-                    <div class = "card habilidades">
+                    <div class = "card cardHabilidades">
                         <img class = "skillIcon" src = "img/icons/javascript.png" alt = "Ícone do JavaScript">
                         <h5 class = "card-title mt-3">JavaScript</h5>
                     </div>
                 </div>
                 <div class = "col-lg-2 mt-4">
-                    <div class = "card habilidades">
+                    <div class = "card cardHabilidades">
                         <img class = "skillIcon" src = "img/icons/html.png" alt = "Ícone do HTML">
                         <h5 class = "card-title mt-3">HTML</h5>
                     </div>
                 </div>
                 <div class = "col-lg-2 mt-4">
-                    <div class = "card habilidades">
+                    <div class = "card cardHabilidades">
                         <img class = "skillIcon" src = "img/icons/css.png" alt = "Ícone do CSS">
                         <h5 class = "card-title mt-3">CSS</h5>
                     </div>
                 </div>
                 <div class = "col-lg-2 mt-4">
-                    <div class = "card habilidades">
+                    <div class = "card cardHabilidades">
                         <img class = "skillIcon" src = "img/icons/bootstrap.png" alt = "Ícone do Bootstrap">
                         <h5 class = "card-title mt-3">Bootstrap</h5>
                     </div>
@@ -172,29 +184,29 @@
     </section>
 
 <!-- Meus projetos -->
-    <section id = "projetos" class = "mt-3">
+    <section id = "projetos" class = "shadow mt-3">
         <div class = "container text-center">
             <h1>Meus projetos</h1>
             <div class = "row pb-4">
                 <div class = "col-lg-3 mt-4">
-                    <div class = "card">
-                        <img class = "card-img-top"
+                    <div class = "card cardProjetos">
+                        <img class = "card-img-top imgProjeto"
                              src = "projetos/logos/estante.png"
                              alt = "Logo da Estante Virtual"
                              style = "width:100%">
                         <div class = "card-body">
                             <h4 class = "card-title">Estante de Livros</h4>
-                            <p>Um sistema de uma biblioteca onde é apresentado os livros disponíveis, com a imagem da
-                               capa, sinopse e uma tabela com infomações como data de publicação, autor, idioma
-                               original e gêneros.</p>
+                            <p>Um sistema de uma biblioteca onde são apresentados os livros disponíveis e algumas
+                               informações como a imagem da capa, sinopse e uma tabela com infomações como data de
+                               publicação, autor, idioma original e gêneros.</p>
                             <a href = "projetos/Estante/estante.html" class = "botao btn btn-success"
                                target = "_blank">Acesse aqui</a>
                         </div>
                     </div>
                 </div>
                 <div class = "col-lg-3 mt-4">
-                    <div class = "card">
-                        <img class = "card-img-top"
+                    <div class = "card cardProjetos">
+                        <img class = "card-img-top imgProjeto"
                              src = "projetos/logos/locadora.png"
                              alt = "Logo da Locadora 2000"
                              style = "width:100%">
@@ -209,31 +221,32 @@
                     </div>
                 </div>
                 <div class = "col-lg-3 mt-4">
-                    <div class = "card">
-                        <img class = "card-img-top"
+                    <div class = "card cardProjetos">
+                        <img class = "card-img-top imgProjeto"
                              src = "projetos/logos/mario.png"
                              alt = "Logo do Mário Jump"
                              style = "width:100%">
                         <div class = "card-body">
                             <h4 class = "card-title">Mario Jump</h4>
-                            <p>Um jogo feito para rodar no navegador onde o usuário deve apertar uma tecla para o personagem
-                               Mário pular o cano que se aproxima, caso o personagem encostar no cano, ele morre e dá Game
-                               Over.</p>
+                            <p>Um jogo com um dos personagens mais conhecidos do mundo geek, onde o usuário deve apertar
+                               uma tecla para o personagem Mário pular o cano que se aproxima, caso o personagem
+                               encostar no cano, ele morre e dá Game Over.</p>
                             <a href = "projetos/Mario/mario.html" class = "botao btn btn-success" target = "_blank">Acesse
                                                                                                                     aqui</a>
                         </div>
                     </div>
                 </div>
                 <div class = "col-lg-3 mt-4">
-                    <div class = "card">
-                        <img class = "card-img-top"
+                    <div class = "card cardProjetos">
+                        <img class = "card-img-top imgProjeto"
                              src = "projetos/logos/cartao.png"
                              alt = "Logo do Cartão de Visitas"
                              style = "width:100%">
                         <div class = "card-body">
                             <h4 class = "card-title">Cartão de Visitas</h4>
                             <p>Nesse projeto o objetivo foi fazer um cartão de visitas utilizando animações para
-                               simular frente e verso. Nesse cartão tem as informações nome, profissão e contato.</p>
+                               simular frente e verso e também outros elementos visuais. Nesse cartão tem as informações
+                               como o meu nome, a minha profissão e os meus contatos.</p>
                             <a href = "projetos/Cartao/cartao.html" class = "botao btn btn-success"
                                target = "_blank">Acesse aqui</a>
                         </div>
@@ -244,43 +257,43 @@
     </section>
 
 <!-- Contatos -->
-    <section id = "contatos" class = "mt-3">
+    <section id = "contatos" class = "shadow mt-3">
         <div class = "container">
             <h1>Contate-me</h1>
             <div class = "row">
                 <div class = "col-lg-3 mt-4">
-                    <div class = "card servicesText">
+                    <div class = "card cardContatos">
                         <a href = "https://wa.me/5564993396083" target = "_blank">
                             <img class = "contactIcon" src = "img/icons/whatsapp.png" alt="Ícone do WhatsApp">
                             <h4 class = "card-title mt-3">WhatsApp</h4>
-                            <p class = "card-text mt-3">(64) 9 9339-6083</p>
+                            <p class = "card-text mt-3 text-center">(64) 9 9339-6083</p>
                         </a>
                     </div>
                 </div>
                 <div class = "col-lg-3 mt-4">
-                    <div class = "card servicesText">
+                    <div class = "card cardContatos">
                         <a href = "https://www.linkedin.com/in/arielgustavo/" target = "_blank">
                             <img class = "contactIcon" src = "img/icons/linkedin.png" alt="Ícone do LinkedIn">
                             <h4 class = "card-title mt-3">LinkedIn</h4>
-                            <p class = "card-text mt-3">www.linkedin.com/in/arielgustavo</p>
+                            <p class = "card-text mt-3 text-center">www.linkedin.com/in/arielgustavo</p>
                         </a>
                     </div>
                 </div>
                 <div class = "col-lg-3 mt-4">
-                    <div class = "card servicesText">
+                    <div class = "card cardContatos">
                         <a href = "https://github.com/arielgpaz" target = "_blank">
                             <img class = "contactIcon" src = "img/icons/github.png" alt="Ícone do GitHub">
                             <h4 class = "card-title mt-3">GitHub</h4>
-                            <p class = "card-text mt-3">github.com/arielgpaz</p>
+                            <p class = "card-text mt-3 text-center">github.com/arielgpaz</p>
                         </a>
                     </div>
                 </div>
                 <div class = "col-lg-3 mt-4">
-                    <div class = "card servicesText">
+                    <div class = "card cardContatos">
                         <a href = "mailto:arielgdapaz@gmail.com" target = "_blank">
                             <img class = "contactIcon" src = "img/icons/gmail.png" alt="Ícone do Gmail">
                             <h4 class = "card-title mt-3">Email</h4>
-                            <p class = "card-text mt-3">arielgdapaz@gmail.com</p>
+                            <p class = "card-text mt-3 text-center">arielgdapaz@gmail.com</p>
                         </a>
                     </div>
                 </div>
@@ -342,10 +355,12 @@
                 </div>
                 <div class = "row text-center lastLine">
                     <div class = "col-lg-6 mt-3">
-                        <p>Ariel Gustavo da Paz © 2023</p>
+                        <p>Ariel Gustavo da Paz &copy; 2023</p>
                     </div>
                     <div class = "col-lg-6 mt-3">
-                        <p>Reposítório no GitHub, <a href = "">aqui</a>!</p>
+                        <p>Reposítório no GitHub,
+                            <a href = "https://github.com/arielgpaz/Portfolio_FrontEnd">aqui</a>!
+                        </p>
                     </div>
                 </div>
             </div>

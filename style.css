@@ -1,190 +1,199 @@
+/* Geral */
+
+#inicio, #sobre, #habilidades, #projetos, #contatos, #rodape {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.cardHabilidades:hover, .cardProjetos:hover, .cardContatos:hover {
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 100%);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+p {
+    text-align: justify
+}
+
 /* Menu */
 
-    .logoSite {
-        width: 4rem;
-    }
+.logoSite {
+    width: 2rem;
+}
 
-    .navbar {
-        position: -ms-device-fixed;
-        background-color: #78D4D5;
-        width: 100%;
-    }
-    
-    .navbar .nav-link {
-        border-style: solid;
-        border-color: #78D4D5;
-        border-radius: 5px;
-        align-self: center;
-        color: white;
-    }
+.navbar {
+    position: -ms-device-fixed;
+    background-color: #78D4D5;
+    width: 100%;
+}
 
-    .navbar .nav-inicio, .navbar .nav-habilidades, .navbar .nav-contatos {
-        background-image: linear-gradient(#FF6507, #FFB557);
-        font-weight: bold;
-    }
+.navbar .nav-link {
+    border-style: solid;
+    border-color: #78D4D5;
+    border-radius: 5px;
+    align-self: center;
+    color: white;
+}
 
-    .navbar .nav-sobre, .navbar .nav-projetos {
-        background-image: linear-gradient(#008F96, #50DFE6);
-        font-weight: bold;
-    }
+.navbar .nav-inicio, .navbar .nav-habilidades, .navbar .nav-contatos {
+    background-image: linear-gradient(#FF6507, #FFB557);
+    font-weight: bold;
+}
 
-    .navbar .nav-link:hover {
-        color: black;
-    }
+.navbar .nav-sobre, .navbar .nav-projetos {
+    background-image: linear-gradient(#008F96, #50DFE6);
+    font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+    color: black;
+}
 
 /* Início */
 
-    #inicio {
-        background-color: #FFA577;
-        height: 100vh;
-    }
+#inicio {
+    background-color: #FFA577;
+    height: 100vh;
+}
 
-    .hero_titulo {
-        font-size: 6rem;
-    }
+#inicio .hero_titulo {
+    font-size: 6rem;
+}
 
-    .hero_desc {
-        font-size: 3rem;
-    }
+#inicio .hero_desc {
+    font-size: 3rem;
+}
 
-    .hero-text {
-        text-align: left;
-        position: absolute;
-        bottom: 15%;
-        transform: translate(-5%, -55%);
-        color: black;
-    }
+#inicio .hero-text {
+    text-align: left;
+    position: absolute;
+    bottom: 15%;
+    transform: translate(-5%, -55%);
+    color: black;
+}
 
-    .bgimage {
-        height: 50rem;
-        background: url('img/heroImage.png');
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position-x: center;
-    }
+.bgimage {
+    height: 50rem;
+    background: url('img/heroImage.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+}
 
 /* Sobre */
 
-    #sobre {
-        background-color: #78D4D5;
-    }
+#sobre {
+    background-color: #78D4D5;
+}
 
-    .imagemSobre {
-        width: 100%;
-        border-radius: 10px;
-    }
+#sobre .imagemSobre {
+    width: 100%;
+    border-radius: 10px;
+}
 
-    .sobre {
-        top: 150vh;
-    }
-
-    #sobre li {
-        list-style: none;
-    }
+#sobre li {
+    list-style: none;
+}
 
 /* Habilidades */
 
-    #habilidades {
-        background-color: #FFA577;
-        text-align: center;
-    }
+#habilidades {
+    background-color: #FFA577;
+    text-align: center;
+}
 
-    .habilidades {
-        padding-top: 2vh;
-        padding-bottom: 2vh;
-    }
+#habilidades .cardHabilidades {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
 
-    .skillIcon {
-        width: 56px;
-        height: 56px;
-        margin: auto;
-    }
+#habilidades .skillIcon {
+    width: 56px;
+    height: 56px;
+    margin: auto;
+}
 
 /* Projetos */
 
-    #projetos {
-        background-color: #78D4D5;
-    }
+#projetos {
+    background-color: #78D4D5;
+}
 
-    #projetos a:hover {
-        color: black;
-    }
+#projetos a:hover {
+    color: black;
+}
 
-    .card-img-top {
-        height: 25vh;
-    }
+#projetos .card-img-top {
+    height: 25vh;
+}
 
-    .card-body {
-        min-height: 40vh;
-    }
+#projetos .card-body {
+    min-height: 300px;
+}
 
-    .botao {
-        background-image: linear-gradient(#008F96, #50DFE6);
-        position: absolute;
-        bottom: 2%;
-        transform: translate(-50%, 0);
-    }
+#projetos .imgProjeto {
+    border-radius: 2vh;
+}
 
+#projetos .btn {
+    background-image: linear-gradient(#008F96, #50DFE6);
+}
+
+#projetos .cardProjetos {
+    padding: 2vh;
+}
 
 /* Contatos */
 
-    #contatos {
-        background-color: #FFA577;
-        text-align: center;
-    }
+#contatos {
+    background-color: #FFA577;
+    text-align: center;
+}
 
-    .servicesText {
-        padding-top: 4vh;
-        padding-bottom: 4vh;
-    }
+#contatos .cardContatos {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
 
-    .servicesText a {
-        color: black;
-        text-decoration: none;
-    }
+#contatos .cardContatos a {
+    color: black;
+    text-decoration: none;
+}
 
-    .servicesText a:hover {
-        color: #008F96;
-    }
+#contatos .cardContatos a:hover {
+    color: #008F96;
+}
 
-    .contactIcon{
-        width: 56px;
-    }
+#contatos .contactIcon {
+    width: 56px;
+}
 
 /* Rodapé */
 
-    #rodape {
-        background-color: #78D4D5;
-    }
+#rodape {
+    background-color: #78D4D5;
+}
 
-    .rodape-logo {
-        width: 20vh;
-    }
+#rodape .rodape-logo {
+    width: 20vh;
+}
 
-    #rodape a {
-        color: black;
-        text-decoration: none;
-    }
+#rodape a {
+    color: black;
+    text-decoration: none;
+}
 
-    #rodape a:hover {
-        color: #008F96;
-    }
+#rodape a:hover {
+    color: #008F96;
+}
 
-    #rodape li {
-        list-style: none;
-    }
+#rodape li {
+    list-style: none;
+}
 
-    .lastLine {
-        background-color: #00BDC0;
-    }
-
-/* Geral */
-
-    #inicio, #sobre, #habilidades, #projetos, #contatos, #rodape {
-        padding-top: 6rem;
-        padding-bottom: 2rem;
-    }
-
-    body {
-        overflow-x: hidden;
-    }
+#rodape .lastLine {
+    background-color: #00BDC0;
+    border-radius: 2vh;
+}
