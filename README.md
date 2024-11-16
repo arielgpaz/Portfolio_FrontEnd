@@ -1,7 +1,7 @@
 # Meu Portfólio
 ___
 
-**Acesse o portfólio** [aqui!](https://arielgpaz.github.io/Portfolio_FrontEnd/)
+**Acesse o portfólio** [aqui!](https://arielgpaz.github.io/portfolio-static-page/)
 
 ## Sobre o projeto
 
